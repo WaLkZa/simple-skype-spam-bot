@@ -6,7 +6,7 @@ async function run() {
         password: "type_your_password"
     };
 
-    const msgContent = "Hi. I'am simple skype spam bot!'";
+    const msgContent = "Hi. I'm simple skype spam bot!";
 
     const skyweb = new Skyweb.default();
     await skyweb.login(userCredential.loginName, userCredential.password);
